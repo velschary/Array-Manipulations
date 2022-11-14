@@ -1,0 +1,31 @@
+<script>
+    /*REMOVING DUPLICATES FROM ARRAY*/
+
+    var arr=[1,2,3,4,1,2,3,4,5]
+    var newArr=[]
+    for(i=0;i<arr.length;i++){
+        if(newArr.indexOf(arr[i])==-1){
+            newArr.push(arr[i])
+        }
+    }
+    console.log(newArr)
+
+    /*FINDING MISSING FROM ARRAY*/
+
+    var array=[1,2,3,6,8,9,11]
+    var missingNum=[]
+
+    var minNum=Math.min(...array)
+    console.log(minNum)  //1
+    var maxNum=Math.max(...array)
+    console.log(maxNum)  //11
+
+    for(i=minNum;i<maxNum;i++){
+        if(array.indexOf(i)<0){  //-1
+            missingNum.push(i)
+        }
+    }
+    console.log(missingNum)
+
+
+</script>
