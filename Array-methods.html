@@ -1,0 +1,156 @@
+<script>
+var ar=['one',1,'two',2,'three',3,'AA',11,123,21];
+
+
+                    //push
+  //insert the value into array at the last position
+
+/*ar.push('four',4);
+console.log(ar);*/
+
+                    //pop
+  //remove the value at the last position.
+
+/*console.log(ar);
+ ar.pop();
+console.log(ar);*/  
+
+                    //unshift
+  //insert the value into array at the startng position
+
+/*console.log(ar);
+ ar.unshift('oone',11);
+console.log(ar);		*/			
+
+                 //shift
+  //remove the value at the starting position.
+
+/*console.log(ar);
+ ar.shift();
+  ar.shift();
+console.log(ar);*/
+
+                //slice
+	//slice gives a new array with our requirment (indexposition && length).
+  			
+/*console.log(ar);
+console.log(ar.slice(1,4));
+var arr=ar.slice(1,3);
+console.log(arr);*/
+
+               //splice
+	//inserting the values into the array with our prefered position.(indexposition && deletecount of values && values.)
+
+console.log(ar);
+ar.splice(2,0,'new');
+console.log(ar);
+
+              //sort
+	//sorting is arranging alphabet order(nubers next strings)	
+
+/*console.log(ar);
+ar.sort();
+console.log(ar)
+console.log(ar.sort());*/
+
+             //reverse
+	//printing reverse pattern of value
+
+/*console.log(ar);
+ar.reverse();
+console.log(ar);
+console.log(ar.reverse());*/
+
+              //concat
+	//adding two or more arrays
+
+/*var a=[1,2];
+var b=['hh'];
+var c=a.concat(b);
+var c=b.concat(a);
+console.log(c);
+
+console.log(a.concat(3,4)) */
+
+              //join
+	//join is joining or mixing the seperate values.		 
+
+/*console.log(ar);
+var arr=ar.join(" @ ");
+console.log(arr);
+
+console.log(ar.join(" $ "));*/
+
+                 //indexOf
+	//to know the indexposition of thr value
+
+/*var arrr=[1,2,3,1,2,3,1,2,3];
+console.log(arrr.indexOf(1,2));
+var ar1=arrr.indexOf(3,3);
+console.log(ar1);*/
+
+                //includes
+	//to find the value is present or not in the given array
+
+/*console.log(ar);
+console.log(ar.includes('one'));
+var b=ar.includes(2);
+console.log(b);*/
+
+                   //filter
+	//filtering the values with our requirment
+
+ /*var ar=[1,2,3,4,5,6,7,8];
+ var b=ar.filter(function fil(ar){
+                    return ar>3;
+                 }); 
+ console.log(b);
+ 
+ 
+ console.log(ar.filter(function fil(ar){
+                          return ar<5;
+						  }));*/
+ 
+ 
+					   
+					   //foreach
+	//insted of for loop we use foreach to print each and value
+
+/*console.log(ar);
+ar.forEach(function(index,value){
+            console.log(value+"   "+index);
+           });*/
+		   
+		           //map
+//to perform a operation with each and every value in the array
+ 
+/*var m=[1,2,3,4,5];				   
+console.log(m.map(function(m){
+                  return m*5;
+				  }));
+
+var b=m.map(function(m){
+            return m+5;
+			});
+			console.log(b);*/
+		   
+
+			console.log(2<1>3);      //fls
+            console.log(3<4<2);   //tr
+
+
+            var a=[1,2,3];
+            var b=[4,5,6];
+            console.log(a+b);   //1,2,34,5,6 
+
+            let arr=[{nm:'raj',age:'25',fnm:'sudha'},{phn:'123',snm:'vlp',snm:'satya'}]
+            console.log(arr)
+            console.log(arr[0])
+            let o=arr[0];
+            let on=Object.keys(o);
+            console.log(on)
+            let ont=Object.entries(o);
+            console.log(ont)
+
+
+</script>
